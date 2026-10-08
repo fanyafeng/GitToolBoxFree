@@ -1,11 +1,24 @@
 <idea-plugin>
     <id>com.pom.gittoolbox.free</id>
     <name>GitToolBoxFree</name>
+    <version>1.0.0</version>
     <vendor email="fanyafeng@users.noreply.github.com" url="https://github.com/fanyafeng/GitToolBoxFree">fanyafeng</vendor>
 
+    <idea-version since-build="231" />
+
     <description><![CDATA[
-    <h2>GitToolBoxFree - 轻量高效、双语支持的 Git 增强插件</h2>
-    <p>为 Android Studio 和 IntelliJ 平台带来轻量快速的 Git 体验（支持简体中文与英文）：</p>
+    <p>GitToolBoxFree is a lightweight, high-performance, and bilingual (English / 简体中文) Git productivity enhancement plugin for IntelliJ IDEA and Android Studio.</p>
+    <h3>Features</h3>
+    <ul>
+        <li><b>Inline Blame</b>: Non-blocking inline line blame displaying author, relative time (3 days ago / 3天前), and commit message.</li>
+        <li><b>Typing Suppression</b>: Automatically hides annotations while typing for a buttery-smooth 120fps native typing experience.</li>
+        <li><b>Status Bar Indicator</b>: Shows branch name and ahead/behind counts (↑ahead | ↓behind) with smart multi-repository tracking.</li>
+        <li><b>Silent Auto-Fetch</b>: Periodically fetches changes in the background with rebase/merge safe evasion.</li>
+        <li><b>Bilingual Settings</b>: One-click switch between English and 简体中文 under Settings -> Version Control -> GitToolBoxFree.</li>
+    </ul>
+    <hr/>
+    <h3>中文说明</h3>
+    <p>GitToolBoxFree 是一款专为 Android Studio 与 IntelliJ 打造的完全免费、轻量级、极致流畅、中英双语的 Git 效率增强插件。</p>
     <ul>
         <li><b>行内代码责任人 (Inline Blame)</b>：光标所在行末即时浅灰显示提交人、相对时间（“3天前”、“昨天” / "3 days ago"）及提交信息。高性能防抖渲染，编码丝滑不卡顿。</li>
         <li><b>状态栏仓库指示器 (Status Bar)</b>：右下角实时展示当前分支、领先/落后提交数（↑超前 | ↓落后），支持悬浮气泡提示与快捷菜单。</li>
@@ -17,10 +30,11 @@
     <change-notes><![CDATA[
     <h3>1.0.0</h3>
     <ul>
-        <li>支持行内代码责任人 (Inline Blame) 高性能防抖显示与模板配置。</li>
-        <li>支持底部状态栏分支与超前/落后提交数 (Ahead / Behind) 指示。</li>
-        <li>内置后台静默 Auto Fetch 服务。</li>
-        <li>提供简体中文 / English 语言自由切换。</li>
+        <li>Initial release of GitToolBoxFree.</li>
+        <li>High-performance debounced Inline Blame with typing suppression.</li>
+        <li>Status bar branch indicator with ahead/behind commit counters.</li>
+        <li>Silent background Auto Fetch service with rebase evasion.</li>
+        <li>Bilingual support for English and 简体中文.</li>
     </ul>
     ]]></change-notes>
 
