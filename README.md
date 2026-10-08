@@ -40,7 +40,9 @@ Designed to eliminate bloating, paywalls, and editing lag, GitToolBoxFree delive
 
 ### 4. 🌐 Bilingual Settings (English & 简体中文)
 - Built-in one-click language toggle between **English** and **简体中文**.
-- Configurable under **Settings / Preferences -> Version Control -> GitToolBoxFree**:
+- Easily accessible in IDE settings:
+  - **Settings / Preferences -> Version Control -> GitToolBoxFree** (or under **Other Settings -> GitToolBoxFree**)
+  - *(Tip: You can also search `GitToolBoxFree` directly in the Settings search bar to jump straight to it)*
   - Customizable Blame Template (supports `{author}`, `{time_ago}`, `{date}`, `{message}`, `{hash}`)
   - Adjustable Debounce Delay (50ms – 2000ms)
   - Toggle Avatar Icon (`👤`), Status Bar Widget, and Auto-Fetch intervals

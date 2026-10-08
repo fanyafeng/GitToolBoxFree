@@ -10,7 +10,7 @@
         <li><b>行内代码责任人 (Inline Blame)</b>：光标所在行末即时浅灰显示提交人、相对时间（“3天前”、“昨天” / "3 days ago"）及提交信息。高性能防抖渲染，编码丝滑不卡顿。</li>
         <li><b>状态栏仓库指示器 (Status Bar)</b>：右下角实时展示当前分支、领先/落后提交数（↑超前 | ↓落后），支持悬浮气泡提示与快捷菜单。</li>
         <li><b>后台自动拉取 (Auto Fetch)</b>：静默定时执行 git fetch，保持远程提交计数实时准确。</li>
-        <li><b>双语设置面板 (Multi-Language Settings)</b>：在“设置 -> 版本控制 -> GitToolBoxFree”中自由切换中英文界面、定制显示模板与防抖时间。</li>
+        <li><b>双语设置面板 (Multi-Language Settings)</b>：在“设置 -> Version Control (版本控制) / Other Settings -> GitToolBoxFree”中自由切换中英文界面、定制显示模板与防抖时间。</li>
     </ul>
     ]]></description>
 
@@ -38,7 +38,7 @@
 
         <!-- 设置面板 (挂载到 Version Control 节点下) -->
         <projectConfigurable
-                parentId="project.propVCSSummary"
+                parentId="project.propVCSSupport.Mappings"
                 instance="com.pom.gittoolbox.settings.GitToolBoxConfigurable"
                 id="com.pom.gittoolbox.settings.GitToolBoxConfigurable"
                 displayName="GitToolBoxFree"/>

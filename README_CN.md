@@ -39,7 +39,9 @@
 
 ### 4. 🌐 界面中英双语自由切换 (Bilingual Support)
 - 原生支持 **简体中文** 与 **English** 双语界面。
-- 可在 **Settings (设置) -> Version Control (版本控制) -> GitToolBoxFree** 中自由配置：
+- 可在 IDE 设置中自由配置：
+  - **Settings (设置) -> Version Control (版本控制) -> GitToolBoxFree** 或 **Other Settings (其他设置) -> GitToolBoxFree**
+  - *(小提示：您也可以在设置搜索框中直接搜索 `GitToolBoxFree` 极速直达)*
   - 显示模板（支持 `{author}`、`{time_ago}`、`{date}`、`{message}`、`{hash}` 等变量）
   - 光标防抖延迟（50ms ~ 2000ms 可调）
   - 头像图标开关、状态栏组件开关及自动拉取间隔
