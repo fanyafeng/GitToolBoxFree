@@ -58,7 +58,9 @@
                 displayName="GitToolBoxFree"/>
 
         <!-- 状态栏指示器工厂 -->
-        <statusBarWidgetFactory implementation="com.pom.gittoolbox.statusbar.GitStatusBarWidgetFactory"/>
+        <statusBarWidgetFactory
+                id="com.pom.gittoolbox.statusbar.GitStatusBarWidget"
+                implementation="com.pom.gittoolbox.statusbar.GitStatusBarWidgetFactory"/>
 
         <!-- 编辑器监听器 (行内 Blame) -->
         <editorFactoryListener implementation="com.pom.gittoolbox.blame.InlineBlameListener"/>
