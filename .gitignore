@@ -1,0 +1,17 @@
+# Gradle build artifacts
+.gradle/
+build/
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
